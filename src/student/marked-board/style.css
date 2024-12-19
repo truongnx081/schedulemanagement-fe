@@ -1,0 +1,16 @@
+.style {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.style th,
+.style td {
+  width: calc(100% / 4);
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 3px;
+}
+
+.style th {
+  background-color: rgba(214, 214, 214, 0.2);
+}
